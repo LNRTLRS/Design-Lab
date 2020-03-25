@@ -22,6 +22,7 @@ Specificaties:
 - SRAM: 2 KB
 - EEPROM: 1 KB
 - Kloksnelheid: 16 MHz
+
 ![Arduino](arduino.jpg)
 ## Seeed studios Grove GSR sensor
 GSR staat voor galvanische huidreactie en is een methode om de elektrische geleiding van de huid te meten. Sterke emoties kunnen het sympathische zenuwstelsel stimuleren, waardoor er meer zweet wordt afgescheiden door de zweetklieren. Met Grove - GSR kun je zulke sterke emoties herkennen door eenvoudig twee elektroden aan twee vingers aan één hand te bevestigen. Het is interessant om emotiegerelateerde projecten zoals slaapkwaliteitsmonitor te maken.
@@ -48,7 +49,28 @@ De MAX30101 in de SparkFun Pulse Oximeter and Heart Rate Monitor is een geïnteg
 ![Sparkfun](sparkfun.jpg)
 
 De sensor komt met een Qwiic kabel, die kan je niet direct aansluiten op een Arduino. Met jumper kabels kunnen we de Arduino verbinden met de sensor, door ze te solderen op de sensor en alsvolgt in te pluggen in de Arduino. Straks volgt hoe.
+
 ![Sparkfun gesoldeerd](sparkfun2.jpg)
+
+De sensor geeft status codes terug om aan te geven of de sensor zijn metingen goed kan doen:
+De status geeft weer of de sensor een object of vinger gedetecteerd heeft:
+Nummer|Status
+------|------
+0|Geen object gededecteerd
+1|Object gededecteerd
+2|Object gededecteerd, maar het is geen vinger
+3|Vinger gededecteerd
+De uitgebreide  status geeft meer details over de detectie:
+Nummer|Uitgebreide Status
+------|------
+0|Success
+1|Not Ready
+-1|Object gededecteerd
+-2|Overmatige beweging van sensor
+-3|Geen object gededecteerd
+-4|Te hard ingedrukt
+-5|Object gededecteerd, maar het is geen vinger
+-6|Overmatige vingerbeweging
 # Stappen
 ## Arduino UNO
 - Download [Arduino IDE](https://www.arduino.cc/en/Main/Software)
