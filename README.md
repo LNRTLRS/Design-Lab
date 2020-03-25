@@ -122,3 +122,4 @@ Voor het maken van onze audiobestanden hebben we gebruik gemaakt van materiaal v
 ![Audacity printscreen](audacity.JPG)
 ## C#
 In het kader van ons project kiezen we om ons programma te schrijven in C#, aangezien we hier vertrouwd mee zijn.
+Stappen moeten nog uitgeschreven worden.
