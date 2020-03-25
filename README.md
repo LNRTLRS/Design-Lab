@@ -21,6 +21,7 @@ Specificaties:
 - SRAM: 2 KB
 - EEPROM: 1 KB
 - Kloksnelheid: 16 MHz
+![Arduino](arduino.jpg)
 ## Seeed studios Grove GSR sensor
 GSR staat voor galvanische huidreactie en is een methode om de elektrische geleiding van de huid te meten. Sterke emoties kunnen het sympathische zenuwstelsel stimuleren, waardoor er meer zweet wordt afgescheiden door de zweetklieren. Met Grove - GSR kun je zulke sterke emoties herkennen door eenvoudig twee elektroden aan twee vingers aan één hand te bevestigen. Het is interessant om emotiegerelateerde projecten zoals slaapkwaliteitsmonitor te maken.
 
@@ -38,8 +39,10 @@ Het wordt ondersteund op volgende platformen:
 - BeagleBone
 - Wio
 - LinkIt ONE
+![Seeed](seeed.jpg)
 ## Sparkfun pulse oximeter
 De MAX30101 in de SparkFun Pulse Oximeter and Heart Rate Monitor is een geïntegreerde pulsoximetrie- en hartslagmonitormodule. Het bevat interne LEDs, fotodetectors en optische elementen om de hartslag en zuurstof in het bloed te meten. Bloed dat verzadigd is met zuurstof absorbeert licht anders dan onverzadigd bloed. Een pulsoximeter meet hemoglobinemoleculen in bloed die verzadigd zijn met zuurstof. Bij een gezonde volwassene gaan deze waarden van 94% tot 100%.
+![Sparkfun](sparkfun.jpg)
 # Stappen
 ## Arduino UNO
 - Download [Arduino IDE](https://www.arduino.cc/en/Main/Software)
@@ -87,5 +90,6 @@ void loop(){
 - Open BPM Mode 2 `Bestand > Voorbeelden > SparkFun Bio Hub Sensor Library > Example2_config_BPM_Mode2` en upload het via het vinkje linksboven naar je Arduino.
 ## Audacity (of ander audioprogramma)
 Voor het maken van onze audiobestanden hebben we gebruik gemaakt van materiaal van het internet die we stukje per stukje gemonteerd hebben in verschillende audiofragmenten. De keuze voor Audacity viel snel, aangezien het gratis software is.
+![Audacity printscreen](audacity.JPG)
 ## C#
 In het kader van ons project kiezen we om ons programma te schrijven in C#, aangezien we hier vertrouwd mee zijn.
