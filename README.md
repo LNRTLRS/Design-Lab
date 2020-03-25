@@ -22,7 +22,6 @@ Specificaties:
 - SRAM: 2 KB
 - EEPROM: 1 KB
 - Kloksnelheid: 16 MHz
-
 ![Arduino](arduino.jpg)
 ## Seeed studios Grove GSR sensor
 GSR staat voor galvanische huidreactie en is een methode om de elektrische geleiding van de huid te meten. Sterke emoties kunnen het sympathische zenuwstelsel stimuleren, waardoor er meer zweet wordt afgescheiden door de zweetklieren. Met Grove - GSR kun je zulke sterke emoties herkennen door eenvoudig twee elektroden aan twee vingers aan één hand te bevestigen. Het is interessant om emotiegerelateerde projecten zoals slaapkwaliteitsmonitor te maken.
