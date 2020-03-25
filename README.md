@@ -1,4 +1,4 @@
-# ScanaScape: Game voor blinden en/of slechtzienden
+# SanaScape: Game voor blinden en/of slechtzienden
 Voor het vak "Design Lab" aan Thomas More Mechelen kregen we de opdracht een game te maken waar we data via sensoren zouden moeten binnentrekken en gebruiken. Het was ook deel van de opdracht om de game te laten afhangen van de binnengetrokken waarden.
 # Apparatuur
 Heb je nodig:
