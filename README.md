@@ -2,9 +2,9 @@
 Voor het vak "Design Lab" aan Thomas More Mechelen kregen we de opdracht een game te maken waar we data via sensoren zouden moeten binnentrekken en gebruiken. Het was ook deel van de opdracht om de game te laten afhangen van de binnengetrokken waarden.
 # Apparatuur
 Heb je nodig:
-- Arduino Uno
-- Seeed studios Grove GSR sensor
-- Sparkfun pulse oximeter
+- Arduino Uno + USB-kabel
+- Seeed studios Grove GSR sensor (voor huidgeleiding)
+- Sparkfun pulse oximeter (voor hartslag en zuurstofgehalte)
 - (nader te bepalen aantal) male-male jumper-kabeltjes
 ## Arduino UNO
 De Arduino UNO is een microcontroller gebaseerd op de ATmega328. Met 14 Digitale I/O pins, een 16MHz kristallen oscillator, een USB aansluiting, stroomaansluiting, ICSP Header en een resetknop heeft de Arduino UNO alles aan boord wat een microcontroller nodig heeft; simpelweg verbinden met een computer of een AC/DC adapter en hij is klaar voor gebruik.
