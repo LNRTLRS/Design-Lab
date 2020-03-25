@@ -40,9 +40,11 @@ Het wordt ondersteund op volgende platformen:
 - BeagleBone
 - Wio
 - LinkIt ONE
+
 ![Seeed](seeed.jpg)
 ## Sparkfun pulse oximeter
 De MAX30101 in de SparkFun Pulse Oximeter and Heart Rate Monitor is een geïntegreerde pulsoximetrie- en hartslagmonitormodule. Het bevat interne LEDs, fotodetectors en optische elementen om de hartslag en zuurstof in het bloed te meten. Bloed dat verzadigd is met zuurstof absorbeert licht anders dan onverzadigd bloed. Een pulsoximeter meet hemoglobinemoleculen in bloed die verzadigd zijn met zuurstof. Bij een gezonde volwassene gaan deze waarden van 94% tot 100%.
+
 ![Sparkfun](sparkfun.jpg)
 # Stappen
 ## Arduino UNO
