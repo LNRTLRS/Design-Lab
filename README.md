@@ -64,8 +64,8 @@ Nummer|Status
 De uitgebreide  status geeft meer details over de detectie:
 Nummer|Uitgebreide Status
 ------|------
-0|Success
-1|Not Ready
+0|Succes
+1|Geen succes
 -1|Object gededecteerd
 -2|Overmatige beweging van sensor
 -3|Geen object gededecteerd
