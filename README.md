@@ -60,6 +60,7 @@ Nummer|Status
 1|Object gededecteerd
 2|Object gededecteerd, maar het is geen vinger
 3|Vinger gededecteerd
+
 De uitgebreide  status geeft meer details over de detectie:
 Nummer|Uitgebreide Status
 ------|------
