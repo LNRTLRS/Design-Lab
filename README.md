@@ -47,6 +47,7 @@ Het wordt ondersteund op volgende platformen:
 De MAX30101 in de SparkFun Pulse Oximeter and Heart Rate Monitor is een geïntegreerde pulsoximetrie- en hartslagmonitormodule. Het bevat interne LEDs, fotodetectors en optische elementen om de hartslag en zuurstof in het bloed te meten. Bloed dat verzadigd is met zuurstof absorbeert licht anders dan onverzadigd bloed. Een pulsoximeter meet hemoglobinemoleculen in bloed die verzadigd zijn met zuurstof. Bij een gezonde volwassene gaan deze waarden van 94% tot 100%.
 
 ![Sparkfun](sparkfun.jpg)
+
 De sensor komt met een Qwiic kabel, die kan je niet direct aansluiten op een Arduino. Met jumper kabels kunnen we de Arduino verbinden met de sensor, door ze te solderen op de sensor en alsvolgt in te pluggen in de Arduino. Straks volgt hoe.
 ![Sparkfun gesoldeerd](sparkfun2.jpg)
 # Stappen
