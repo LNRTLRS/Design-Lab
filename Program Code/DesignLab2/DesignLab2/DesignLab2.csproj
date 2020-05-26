@@ -55,70 +55,115 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="7.B RunningAwayFinished.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.B RunningAwayFinished.Designer.cs">
+      <DependentUpon>7.B RunningAwayFinished.cs</DependentUpon>
+    </Compile>
     <Compile Include="Credits.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Credits.Designer.cs">
       <DependentUpon>Credits.cs</DependentUpon>
     </Compile>
-    <Compile Include="BadStory1.cs">
+    <Compile Include="5.B ElevatorCrawling.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BadStory1.Designer.cs">
-      <DependentUpon>BadStory1.cs</DependentUpon>
+    <Compile Include="5.B ElevatorCrawling.Designer.cs">
+      <DependentUpon>5.B ElevatorCrawling.cs</DependentUpon>
     </Compile>
-    <Compile Include="GoodStory1.cs">
+    <Compile Include="3.Introduction.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GoodStory1.Designer.cs">
-      <DependentUpon>GoodStory1.cs</DependentUpon>
+    <Compile Include="3.Introduction.Designer.cs">
+      <DependentUpon>3.Introduction.cs</DependentUpon>
     </Compile>
-    <Compile Include="Story 2.cs">
+    <Compile Include="6. RoyLobby.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Story 2.Designer.cs">
-      <DependentUpon>Story 2.cs</DependentUpon>
+    <Compile Include="6. RoyLobby.Designer.cs">
+      <DependentUpon>6. RoyLobby.cs</DependentUpon>
     </Compile>
-    <Compile Include="Story1.cs">
+    <Compile Include="8.Generator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Story1.Designer.cs">
-      <DependentUpon>Story1.cs</DependentUpon>
+    <Compile Include="8.Generator.Designer.cs">
+      <DependentUpon>8.Generator.cs</DependentUpon>
     </Compile>
-    <Compile Include="Initialisation.cs">
+    <Compile Include="Settings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Initialisation.Designer.cs">
-      <DependentUpon>Initialisation.cs</DependentUpon>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
+    <Compile Include="4.finished_elevator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
+    <Compile Include="4.finished_elevator.Designer.cs">
+      <DependentUpon>4.finished_elevator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7.A Story3_Basement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.A Story3_Basement.Designer.cs">
+      <DependentUpon>7.A Story3_Basement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.A Story1_Lift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.A Story1_Lift.Designer.cs">
+      <DependentUpon>5.A Story1_Lift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2.Initialisation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.Initialisation.Designer.cs">
+      <DependentUpon>2.Initialisation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1.Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.Home.Designer.cs">
+      <DependentUpon>1.Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="7.B RunningAwayFinished.resx">
+      <DependentUpon>7.B RunningAwayFinished.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Credits.resx">
       <DependentUpon>Credits.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BadStory1.resx">
-      <DependentUpon>BadStory1.cs</DependentUpon>
+    <EmbeddedResource Include="5.B ElevatorCrawling.resx">
+      <DependentUpon>5.B ElevatorCrawling.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GoodStory1.resx">
-      <DependentUpon>GoodStory1.cs</DependentUpon>
+    <EmbeddedResource Include="3.Introduction.resx">
+      <DependentUpon>3.Introduction.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Story 2.resx">
-      <DependentUpon>Story 2.cs</DependentUpon>
+    <EmbeddedResource Include="6. RoyLobby.resx">
+      <DependentUpon>6. RoyLobby.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Story1.resx">
-      <DependentUpon>Story1.cs</DependentUpon>
+    <EmbeddedResource Include="8.Generator.resx">
+      <DependentUpon>8.Generator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Initialisation.resx">
-      <DependentUpon>Initialisation.cs</DependentUpon>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
+    <EmbeddedResource Include="4.finished_elevator.resx">
+      <DependentUpon>4.finished_elevator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.A Story3_Basement.resx">
+      <DependentUpon>7.A Story3_Basement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.A Story1_Lift.resx">
+      <DependentUpon>5.A Story1_Lift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.Initialisation.resx">
+      <DependentUpon>2.Initialisation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1.Home.resx">
+      <DependentUpon>1.Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,12 +189,32 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Story\Initialisation\" />
     <Folder Include="Story\Story 2\Sounds\" />
     <Folder Include="Story\Story 3\Sounds\" />
     <Folder Include="Story\Story 4\Sounds\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Story\Story 1\Sounds\Welcome.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

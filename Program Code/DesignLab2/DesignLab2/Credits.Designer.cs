@@ -151,10 +151,10 @@
             this.metroLabel9.AutoSize = true;
             this.metroLabel9.Location = new System.Drawing.Point(292, 156);
             this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(150, 19);
+            this.metroLabel9.Size = new System.Drawing.Size(149, 19);
             this.metroLabel9.Style = MetroFramework.MetroColorStyle.Red;
             this.metroLabel9.TabIndex = 22;
-            this.metroLabel9.Text = "- Pierre Van der Auwera";
+            this.metroLabel9.Text = "- Pieter Van der Auwera";
             this.metroLabel9.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroLabel10
@@ -224,7 +224,6 @@
             this.Style = MetroFramework.MetroColorStyle.Lime;
             this.Text = "Credits";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
