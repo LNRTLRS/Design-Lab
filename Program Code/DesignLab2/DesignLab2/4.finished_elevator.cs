@@ -15,6 +15,7 @@ namespace DesignLab2
         Timer timer = new Timer();
         int count_down = 65;
         int heartrate_before;
+        int heartrate_after;
 
 
         public finished_elevator()
@@ -65,21 +66,21 @@ namespace DesignLab2
         private void timer1_Tick(object sender, EventArgs e)
         {
             count_down--;
-            lblTimer.Text = count_down.ToString();
-
+            lblTimer.Text = count_down.ToString();       
             // De speler krijgt de kans om zijn hartslag te laten stijgen (Doordat hij uit de lift kruipt), als zijn hartslag stijgt gaat hij naar de Scene "Elevator Crawling"
             // Als zijn harstlag daalt komt hij in de slechte scene ("Deel 1 Lift")
             if (count_down == 7)
-            {
-                heartrate_before = Settings.test;
+            {  
+                
+                heartrate_before = Settings.heartrate_before;
             }
 
             if (count_down <= -1)
             {
                 count_down = 0;
-                txtHR.Text = Convert.ToString(Settings.test);
-                int heartrate = Settings.test;
-                if (heartrate_before <= heartrate)
+                //txtHR.Text = Convert.ToString(Settings.test);
+                heartrate_after = Settings.heartrate_after;
+                if (heartrate_before <= heartrate_after)
                 {
                     System.Threading.Thread.Sleep(3000);
                     this.Close();
@@ -98,6 +99,11 @@ namespace DesignLab2
                 }
 
             }
+        }
+
+        private void finished_elevator_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

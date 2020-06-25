@@ -14,6 +14,8 @@ namespace DesignLab2
         public static int score { get; private set; }
         SerialPort hrPort = Settings.hrPort;
         SerialPort gsrPort = Settings.gsrPort;
+        int count_down = 20;
+
         public Initialisation()
         {
             InitializeComponent();
@@ -66,7 +68,6 @@ namespace DesignLab2
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int count_down = 20;
             count_down--;
             lblTimer.Text = count_down.ToString();
             if (count_down <= -1)
@@ -96,6 +97,21 @@ namespace DesignLab2
             {
                 hrPort.Close();
             }
+        }
+
+        private void Initialisation_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHR_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTimer_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

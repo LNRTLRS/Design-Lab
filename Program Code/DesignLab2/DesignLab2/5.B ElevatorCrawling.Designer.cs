@@ -195,7 +195,7 @@
             this.metroLabel2.Size = new System.Drawing.Size(231, 25);
             this.metroLabel2.Style = MetroFramework.MetroColorStyle.Lime;
             this.metroLabel2.TabIndex = 50;
-            this.metroLabel2.Text = "Scene 1: Elevator Crawing";
+            this.metroLabel2.Text = "Scene 2: Elevator Crawing";
             this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroLabel2.UseMnemonic = false;
             this.metroLabel2.UseStyleColors = true;
@@ -232,6 +232,7 @@
             this.Style = MetroFramework.MetroColorStyle.Lime;
             this.Text = "SanaScape";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Load += new System.EventHandler(this.ElevatorCrawling_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

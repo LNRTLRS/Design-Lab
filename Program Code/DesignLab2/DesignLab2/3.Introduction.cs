@@ -81,16 +81,14 @@ namespace DesignLab2
         {
 
         }
-
-        private void btnLaunchGame_Click(object sender, EventArgs e)
-        {
-            finished_elevator fo = new finished_elevator();
-            fo.Show();
-            this.Close();
-            fo.Visible = true;
-        }
+      
 
         private void lblTimer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Introduction_Load(object sender, EventArgs e)
         {
 
         }

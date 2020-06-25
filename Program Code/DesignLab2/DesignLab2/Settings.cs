@@ -8,7 +8,8 @@ namespace DesignLab2
 {
     public partial class Settings : MetroForm
     {
-        public static int test { get; private set; }
+        public static int heartrate_before { get; private set; }
+        public static int heartrate_after { get; private set; }
         public static SerialPort hrPort { get; private set; }
         public static SerialPort gsrPort { get; private set; }
         private Home hm { get; set; }
@@ -17,7 +18,9 @@ namespace DesignLab2
             InitializeComponent();
             hm = home;
             string[] ports = SerialPort.GetPortNames();
-            test = 120;
+            heartrate_before = 80;
+            heartrate_after = 100;
+            
 
             foreach (string port in ports)
             {
@@ -93,6 +96,11 @@ namespace DesignLab2
             {
                 hrPort.Close();
             }
+        }
+
+        private void Settings_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

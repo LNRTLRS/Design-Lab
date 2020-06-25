@@ -164,9 +164,9 @@
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(134, 105);
+            this.pictureBox2.Location = new System.Drawing.Point(162, 79);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(478, 258);
+            this.pictureBox2.Size = new System.Drawing.Size(477, 322);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 48;
             this.pictureBox2.TabStop = false;
@@ -189,7 +189,7 @@
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel2.Location = new System.Drawing.Point(147, 119);
+            this.metroLabel2.Location = new System.Drawing.Point(172, 88);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(286, 25);
             this.metroLabel2.Style = MetroFramework.MetroColorStyle.Lime;
@@ -231,6 +231,7 @@
             this.Style = MetroFramework.MetroColorStyle.Lime;
             this.Text = "SanaScape";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Load += new System.EventHandler(this.RunningAwayFinished_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

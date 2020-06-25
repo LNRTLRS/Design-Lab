@@ -71,5 +71,10 @@ namespace DesignLab2
                 fo.Visible = true;
             }
         }
+
+        private void RunningAwayFinished_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

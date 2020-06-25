@@ -73,5 +73,20 @@ namespace DesignLab2
 
             }
         }
+
+        private void txtHR_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtGSR_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Story1_Lift_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

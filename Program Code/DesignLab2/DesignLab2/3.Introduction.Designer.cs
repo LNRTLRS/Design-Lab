@@ -37,12 +37,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.btnLaunchGame = new MetroFramework.Controls.MetroButton();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.lblTimer = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -141,7 +140,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(701, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(703, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(95, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -166,7 +165,7 @@
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel2.Location = new System.Drawing.Point(323, 25);
+            this.metroLabel2.Location = new System.Drawing.Point(349, 55);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(162, 25);
             this.metroLabel2.Style = MetroFramework.MetroColorStyle.Lime;
@@ -177,38 +176,12 @@
             this.metroLabel2.UseStyleColors = true;
             this.metroLabel2.Click += new System.EventHandler(this.metroLabel2_Click);
             // 
-            // axWindowsMediaPlayer1
-            // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(146, 63);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(540, 262);
-            this.axWindowsMediaPlayer1.TabIndex = 56;
-            this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.axWindowsMediaPlayer1_Enter);
-            // 
-            // btnLaunchGame
-            // 
-            this.btnLaunchGame.DisplayFocus = true;
-            this.btnLaunchGame.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.btnLaunchGame.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnLaunchGame.Highlight = true;
-            this.btnLaunchGame.Location = new System.Drawing.Point(305, 347);
-            this.btnLaunchGame.Name = "btnLaunchGame";
-            this.btnLaunchGame.Size = new System.Drawing.Size(218, 57);
-            this.btnLaunchGame.Style = MetroFramework.MetroColorStyle.Lime;
-            this.btnLaunchGame.TabIndex = 57;
-            this.btnLaunchGame.Text = "Launch Game";
-            this.btnLaunchGame.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.btnLaunchGame.UseSelectable = true;
-            this.btnLaunchGame.Click += new System.EventHandler(this.btnLaunchGame_Click);
-            // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
             this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel3.Location = new System.Drawing.Point(577, 25);
+            this.metroLabel3.Location = new System.Drawing.Point(591, 25);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(59, 25);
             this.metroLabel3.Style = MetroFramework.MetroColorStyle.Lime;
@@ -231,15 +204,26 @@
             this.lblTimer.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.lblTimer.Click += new System.EventHandler(this.lblTimer_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(196, 90);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(454, 303);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 61;
+            this.pictureBox2.TabStop = false;
+            // 
             // Introduction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.lblTimer);
-            this.Controls.Add(this.btnLaunchGame);
-            this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroLabel9);
@@ -250,8 +234,9 @@
             this.Style = MetroFramework.MetroColorStyle.Lime;
             this.Text = "SanaScape";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Load += new System.EventHandler(this.Introduction_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,10 +250,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
-        private MetroFramework.Controls.MetroButton btnLaunchGame;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel lblTimer;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

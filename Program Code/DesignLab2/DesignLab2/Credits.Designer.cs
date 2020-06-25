@@ -41,7 +41,6 @@
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -180,17 +179,6 @@
             this.metroLabel11.Text = "- Senne Willems";
             this.metroLabel11.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // metroLabel12
-            // 
-            this.metroLabel12.AutoSize = true;
-            this.metroLabel12.Location = new System.Drawing.Point(78, 273);
-            this.metroLabel12.Name = "metroLabel12";
-            this.metroLabel12.Size = new System.Drawing.Size(101, 19);
-            this.metroLabel12.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel12.TabIndex = 27;
-            this.metroLabel12.Text = "- Arne Verhaert";
-            this.metroLabel12.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -207,7 +195,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(486, 312);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.metroLabel12);
             this.Controls.Add(this.metroLabel11);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel7);
@@ -224,6 +211,7 @@
             this.Style = MetroFramework.MetroColorStyle.Lime;
             this.Text = "Credits";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Load += new System.EventHandler(this.Credits_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -245,7 +233,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroLabel metroLabel10;
         private MetroFramework.Controls.MetroLabel metroLabel11;
-        private MetroFramework.Controls.MetroLabel metroLabel12;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -15,6 +15,7 @@ namespace DesignLab2
         Timer timer = new Timer();
         int count_down = 32;
         int heartrate_before;
+        int heartrate_after;
 
         public RoyLobby()
         {
@@ -64,18 +65,18 @@ namespace DesignLab2
         {
             count_down--;
             lblTimer.Text = count_down.ToString();
-            txtHR.Text = Convert.ToString(Settings.test);
+            //txtHR.Text = Convert.ToString(Settings.test);
             if (count_down == 12)
             {
-                heartrate_before = Settings.test;
+                heartrate_before = Settings.heartrate_before;
             }
 
             if (count_down <= -1)
             {
                 count_down = 0;
-                txtHR.Text = Convert.ToString(Settings.test);
-                int heartrate = Settings.test;
-                if (heartrate_before <= heartrate)
+                //txtHR.Text = Convert.ToString(Settings.test);
+                heartrate_after = Settings.heartrate_after;
+                if (heartrate_before <= heartrate_after)
                 {
                     System.Threading.Thread.Sleep(3000);
                     this.Close();
@@ -94,6 +95,11 @@ namespace DesignLab2
                 }
 
             }
+        }
+
+        private void RoyLobby_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

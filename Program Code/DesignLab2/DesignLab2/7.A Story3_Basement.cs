@@ -72,5 +72,10 @@ namespace DesignLab2
                 fo.Visible = true;
             }
         }
+
+        private void Story3_Basement_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

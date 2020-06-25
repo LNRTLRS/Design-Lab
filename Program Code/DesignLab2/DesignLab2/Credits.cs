@@ -21,5 +21,10 @@ namespace DesignLab2
             Home fo = new Home();
             fo.Visible = true;
         }
+
+        private void Credits_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
